@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\git\\RPG_game\\RPG_game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A4F4ACC-F96C-8A54-75DF-E3CD8951FE5E}|RPG_game\\RPG_game.csproj|c:\\git\\rpg_game\\rpg_game\\rpg_game\\rpg_game.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7A4F4ACC-F96C-8A54-75DF-E3CD8951FE5E}|RPG_game\\RPG_game.csproj|solutionrelative:rpg_game\\rpg_game.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7A4F4ACC-F96C-8A54-75DF-E3CD8951FE5E}|RPG_game\\RPG_game.csproj|c:\\git\\rpg_game\\rpg_game\\rpg_game\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A4F4ACC-F96C-8A54-75DF-E3CD8951FE5E}|RPG_game\\RPG_game.csproj|solutionrelative:rpg_game\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,25 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RPG_game",
-              "DocumentMoniker": "C:\\git\\RPG_game\\RPG_game\\RPG_game\\RPG_game.csproj",
-              "RelativeDocumentMoniker": "RPG_game\\RPG_game.csproj",
-              "ToolTip": "C:\\git\\RPG_game\\RPG_game\\RPG_game\\RPG_game.csproj",
-              "RelativeToolTip": "RPG_game\\RPG_game.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-11T10:28:54.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\git\\RPG_game\\RPG_game\\RPG_game\\Enemy.cs",
               "RelativeDocumentMoniker": "RPG_game\\Enemy.cs",
               "ToolTip": "C:\\git\\RPG_game\\RPG_game\\RPG_game\\Enemy.cs",
               "RelativeToolTip": "RPG_game\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA4wEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T09:51:08.704Z",
               "EditorCaption": ""
