@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A4F4ACC-F96C-8A54-75DF-E3CD8951FE5E}|RPG_game\\RPG_game.csproj|c:\\git\\rpg_game\\rpg_game\\rpg_game\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A4F4ACC-F96C-8A54-75DF-E3CD8951FE5E}|RPG_game\\RPG_game.csproj|solutionrelative:rpg_game\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A4F4ACC-F96C-8A54-75DF-E3CD8951FE5E}|RPG_game\\RPG_game.csproj|c:\\git\\rpg_game\\rpg_game\\rpg_game\\rpg_game.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A4F4ACC-F96C-8A54-75DF-E3CD8951FE5E}|RPG_game\\RPG_game.csproj|solutionrelative:rpg_game\\rpg_game.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RPG_game",
+              "DocumentMoniker": "C:\\git\\RPG_game\\RPG_game\\RPG_game\\RPG_game.csproj",
+              "RelativeDocumentMoniker": "RPG_game\\RPG_game.csproj",
+              "ToolTip": "C:\\git\\RPG_game\\RPG_game\\RPG_game\\RPG_game.csproj",
+              "RelativeToolTip": "RPG_game\\RPG_game.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-16T09:55:08.197Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "RPG_game\\Enemy.cs",
               "ToolTip": "C:\\git\\RPG_game\\RPG_game\\RPG_game\\Enemy.cs",
               "RelativeToolTip": "RPG_game\\Enemy.cs",
-              "ViewState": "AgIAANQAAAAAAAAAAAAIwNgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T09:51:08.704Z",
               "EditorCaption": ""
