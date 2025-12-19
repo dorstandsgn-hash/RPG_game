@@ -1,3 +1,4 @@
+<<<<<<< HEAD:RPG_game/ConsoleApp1/Player.cs
 ﻿namespace TextRPG
 {
     // ============================================
@@ -78,6 +79,14 @@
             target.TakeDamage(damage);
         }
 
+=======
+﻿using static RPG_game.Enemy;
+
+namespace RPG_game
+{
+    public class Player
+    {
+>>>>>>> c085fe08453a74777fc1a8fda98f25102baed449:RPG_game/RPG_game/Player.cs
         public void CastSpell(Character target)
         {
             int manaCost = 20;
@@ -167,16 +176,28 @@
             Console.WriteLine($"💙 Мана: {Mana}/{MaxMana}");
             Console.WriteLine($"⚔️  Сила: {Strength}");
             Console.WriteLine($"✨ Досвід: {Experience}/{Level * 100}");
+<<<<<<< HEAD:RPG_game/ConsoleApp1/Player.cs
+=======
+
+>>>>>>> c085fe08453a74777fc1a8fda98f25102baed449:RPG_game/RPG_game/Player.cs
             if (equippedWeapon != null)
             {
                 Console.WriteLine($"🗡️  Зброя: {equippedWeapon.Name}");
             }
+<<<<<<< HEAD:RPG_game/ConsoleApp1/Player.cs
+=======
+
+>>>>>>> c085fe08453a74777fc1a8fda98f25102baed449:RPG_game/RPG_game/Player.cs
             Console.WriteLine($"━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n");
         }
 
         public void ShowInventory()
         {
             Console.WriteLine("\n📦 ІНВЕНТАР:");
+<<<<<<< HEAD:RPG_game/ConsoleApp1/Player.cs
+=======
+
+>>>>>>> c085fe08453a74777fc1a8fda98f25102baed449:RPG_game/RPG_game/Player.cs
             if (inventory.Count == 0)
             {
                 Console.WriteLine("  Пусто");
@@ -188,7 +209,14 @@
                     Console.WriteLine($"  [{i}] {inventory[i].Name} - {inventory[i].Description}");
                 }
             }
+<<<<<<< HEAD:RPG_game/ConsoleApp1/Player.cs
             Console.WriteLine();
         }
     }
 }
+=======
+
+            Console.WriteLine();
+        }
+    }
+>>>>>>> c085fe08453a74777fc1a8fda98f25102baed449:RPG_game/RPG_game/Player.cs
