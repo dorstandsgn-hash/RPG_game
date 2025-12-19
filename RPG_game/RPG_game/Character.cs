@@ -1,71 +1,74 @@
-﻿using System;
-
-namespace RPG_game
+﻿namespace TextRPG
 {
+    // ============================================
+    // БАЗОВІ КЛАСИ
+    // ============================================
+
+    /// <summary>
+    /// Базовий клас для всіх персонажів
+    /// </summary>
     public abstract class Character
     {
-        private int _health;
-        private int _maxHealth;
-        private int _strength;
-        private string _name;
+        private int health;
+        private int maxHealth;
+        private int strength;
+        private string name;
 
         public string Name
         {
-            get => _name;
-            protected set => _name = value;
+            get => name;
+            protected set => name = value;
         }
 
         public int Health
         {
-            get => _health;
-            protected set => _health = Math.Max(0, Math.Min(0, _maxHealth));
+            get => health;
+            protected set => health = Math.Max(0, Math.Min(value, maxHealth));
         }
 
         public int MaxHealth
         {
-            get => _maxHealth;
-            protected set => _maxHealth = value;
+            get => maxHealth;
+            protected set => maxHealth = value;
         }
 
         public int Strength
         {
-            get => _strength;
-            protected set => _strength = Math.Max(1, value);
+            get => strength;
+            protected set => strength = Math.Max(1, value);
         }
 
+        public bool IsAlive => health > 0;
 
-        public bool IsAlive => _health > 0;
-
-        protected Character(int health, int strenght, string name)
+        protected Character(string name, int health, int strength)
         {
-            Health = health;
-            MaxHealth = health;
-            Strength = strenght;
-            Name = name;
+            this.name = name;
+            this.maxHealth = health;
+            this.health = health;
+            this.strength = strength;
         }
 
+        /// <summary>
+        /// Поліморфний метод атаки
+        /// </summary>
         public abstract void Attack(Character target);
 
         public virtual void TakeDamage(int damage)
         {
             Health -= damage;
-            Console.WriteLine($"{Name} отримав {damage} пошкоджень! (HP: {Health}/{MaxHealth})")
-    
+            Console.WriteLine($"{Name} отримав {damage} пошкоджень! (HP: {Health}/{MaxHealth})");
 
             if (!IsAlive)
             {
-                Console.WriteLine($"{Name} загинув!")
+                Console.WriteLine($"💀 {Name} загинув!");
             }
         }
 
-        public void Heal(int heal)
+        public void Heal(int amount)
         {
-            var oldHealth = Health;
-            Health += heal;
-            Console.WriteLine($"{Name} відновив {Health - oldHealth} (HP: {Health}/{MaxHealth})")
-            }
-
+            int oldHealth = Health;
+            Health += amount;
+            Console.WriteLine($"💚 {Name} відновив {Health - oldHealth} HP! (HP: {Health}/{MaxHealth})");
+        }
     }
 }
-
-
